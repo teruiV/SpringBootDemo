@@ -39,6 +39,6 @@ public class Chapter46ApplicationTests {
 		u = userRepository.findByUsername("张三");
 		userRepository.delete(u);
 		Assert.assertEquals(1,userRepository.findAll().size());
-		
+
 	}
 }
