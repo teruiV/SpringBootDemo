@@ -1,0 +1,37 @@
+2017-10-15 11:24:10,440  INFO Chapter55Application:48 - Starting Chapter55Application on jianweilindeMacBook-Pro.local with PID 63851 (/Users/jianweilin/do_test/SpringBootDemo/chapter5-5/target/classes started by jianweilin in /Users/jianweilin/do_test/SpringBootDemo/chapter5-5)
+2017-10-15 11:24:10,445  INFO Chapter55Application:659 - No active profile set, falling back to default profiles: default
+2017-10-15 11:24:10,571  INFO AnnotationConfigEmbeddedWebApplicationContext:581 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59717824: startup date [Sun Oct 15 11:24:10 CST 2017]; root of context hierarchy
+2017-10-15 11:24:10,745  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-10-15 11:24:12,041  INFO TomcatEmbeddedServletContainer:88 - Tomcat initialized with port(s): 8080 (http)
+2017-10-15 11:24:12,124  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1558 ms
+2017-10-15 11:24:12,256  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-15 11:24:12,266  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-15 11:24:12,267  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-15 11:24:12,268  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-15 11:24:12,268  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-15 11:24:12,610  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59717824: startup date [Sun Oct 15 11:24:10 CST 2017]; root of context hierarchy
+2017-10-15 11:24:12,673  INFO RequestMappingHandlerMapping:543 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.frank.chapter55.web.HelloController.index(java.lang.String)
+2017-10-15 11:24:12,676  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-15 11:24:12,677  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-15 11:24:12,718  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-15 11:24:12,719  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-15 11:24:12,763  INFO SimpleUrlHandlerMapping:354 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-15 11:24:12,904  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-10-15 11:24:12,960  INFO TomcatEmbeddedServletContainer:186 - Tomcat started on port(s): 8080 (http)
+2017-10-15 11:24:12,964  INFO Chapter55Application:57 - Started Chapter55Application in 3.136 seconds (JVM running for 4.387)
+2017-10-15 11:28:29,459  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-15 11:28:29,478  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-10-15 11:28:29,510  INFO WebLogAspect:37 - URL: http://localhost:8080/hello
+2017-10-15 11:28:29,510  INFO WebLogAspect:38 - HTTP_METHOD: GET
+2017-10-15 11:28:29,511  INFO WebLogAspect:39 - IP: 0:0:0:0:0:0:0:1
+2017-10-15 11:28:29,513  INFO WebLogAspect:40 - CLASS_METHOD: com.frank.chapter55.web.HelloController.index
+2017-10-15 11:28:29,513  INFO WebLogAspect:41 - ARGS: [zhangsan]
+2017-10-15 11:28:29,517  INFO WebLogAspect:47 - RESPONSE : Hello: zhangsan
+2017-10-15 11:28:29,518  INFO WebLogAspect:48 - SPEND TIME: 8
+2017-10-15 11:29:17,419  INFO WebLogAspect:37 - URL: http://localhost:8080/hello
+2017-10-15 11:29:17,419  INFO WebLogAspect:38 - HTTP_METHOD: GET
+2017-10-15 11:29:17,420  INFO WebLogAspect:39 - IP: 0:0:0:0:0:0:0:1
+2017-10-15 11:29:17,420  INFO WebLogAspect:40 - CLASS_METHOD: com.frank.chapter55.web.HelloController.index
+2017-10-15 11:29:17,421  INFO WebLogAspect:41 - ARGS: [王小二]
+2017-10-15 11:29:17,421  INFO WebLogAspect:47 - RESPONSE : Hello: 王小二
+2017-10-15 11:29:17,422  INFO WebLogAspect:48 - SPEND TIME: 3
