@@ -35,3 +35,5 @@
 2017-10-15 11:29:17,421  INFO WebLogAspect:41 - ARGS: [王小二]
 2017-10-15 11:29:17,421  INFO WebLogAspect:47 - RESPONSE : Hello: 王小二
 2017-10-15 11:29:17,422  INFO WebLogAspect:48 - SPEND TIME: 3
+2017-10-15 11:36:19,053  INFO AnnotationConfigEmbeddedWebApplicationContext:982 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59717824: startup date [Sun Oct 15 11:24:10 CST 2017]; root of context hierarchy
+2017-10-15 11:36:19,056  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
