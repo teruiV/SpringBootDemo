@@ -36,7 +36,6 @@ public class ElasticSearchConfig {
         Settings esSettings = Settings.settingsBuilder()
                 .put("cluster.name", esClusterName)
                 .build();
-        System.out.println("esHost = " + esHost + " esPort = " + esPort + " esClusterName = " + esClusterName );
 
         return TransportClient.builder().settings(esSettings).build()
                 .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(esHost),esPort));
