@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.william.chapter71.autoconfigure.GreeterAutoConfiguration
